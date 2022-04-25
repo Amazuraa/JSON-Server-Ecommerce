@@ -1,3 +1,7 @@
 run on local server.
 
 json-server -p 3006 -w db.json
+
+development server.
+
+node server.js

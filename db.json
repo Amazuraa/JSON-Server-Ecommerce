@@ -1,34 +1,166 @@
 {
-     "products" : [
-          {
-               "id" : "PRO_1",
-               "prod_name" : "Product A",
-               "prod_desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
-               "prod_price" : 500000,
-               "prod_image" : "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-          },
-          {
-               "id" : "PRO_2",
-               "prod_name" : "Product B",
-               "prod_desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
-               "prod_price" : 250000,
-               "prod_image" : "https://images.unsplash.com/photo-1519996529931-28324d5a630e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-          },
-          {
-               "id" : "PRO_3",
-               "prod_name" : "Product C",
-               "prod_desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
-               "prod_price" : 375000,
-               "prod_image" : "https://images.unsplash.com/photo-1586999528871-ded77bc9656c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80"
-          }
-     ],
-     "transactions" : [
-          {
-               "id" : "TRN_1",
-               "prod_id" : "PRO_1",
-               "tran_date" : "Apr 23",
-               "tran_qty" : 1,
-               "tran_total" : 500000
-          }
-     ]
+  "products": [
+    {
+      "id": "PRO_485029",
+      "prod_image": "https://images.unsplash.com/photo-1582979512210-99b6a53386f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+      "prod_name": "Fruit AAA",
+      "prod_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+      "prod_price": "150000",
+      "prod_type": "fruit"
+    },
+    {
+      "id": "PRO_866886",
+      "prod_image": "https://images.unsplash.com/photo-1498557850523-fd3d118b962e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI2fHxmcnVpdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "prod_name": "Fruit BBB",
+      "prod_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+      "prod_price": "70000",
+      "prod_type": "fruit"
+    },
+    {
+      "id": "PRO_730198",
+      "prod_image": "https://images.unsplash.com/photo-1586999528871-ded77bc9656c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80",
+      "prod_name": "Fruit CCC",
+      "prod_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+      "prod_price": "95000",
+      "prod_type": "fruit"
+    },
+    {
+      "id": "PRO_717542",
+      "prod_image": "https://images.unsplash.com/photo-1612773843298-44dcdd45d865?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "prod_name": "Snack SSS",
+      "prod_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+      "prod_price": "50000",
+      "prod_type": "snack"
+    },
+    {
+      "id": "PRO_767083",
+      "prod_image": "https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fHNuYWNrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "prod_name": "Snack TTT",
+      "prod_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+      "prod_price": "35000",
+      "prod_type": "snack"
+    },
+    {
+      "id": "PRO_960294",
+      "prod_image": "https://images.unsplash.com/photo-1523484812979-8d03369644f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHNuYWNrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "prod_name": "Snack UUU",
+      "prod_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+      "prod_price": "55000",
+      "prod_type": "snack"
+    },
+    {
+      "id": "PRO_442204",
+      "prod_image": "https://images.unsplash.com/photo-1608142014114-3099960b7e41?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGZhc3QlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "prod_name": "Food XXX",
+      "prod_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+      "prod_price": "78000",
+      "prod_type": "fast_food"
+    },
+    {
+      "id": "PRO_651578",
+      "prod_image": "https://images.unsplash.com/photo-1598679253544-2c97992403ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc3QlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "prod_name": "Food YYY",
+      "prod_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+      "prod_price": "45000",
+      "prod_type": "fast_food"
+    },
+    {
+      "id": "PRO_146390",
+      "prod_image": "https://images.unsplash.com/photo-1520201163981-8cc95007dd2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZhc3QlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "prod_name": "Food ZZZ",
+      "prod_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+      "prod_price": "145000",
+      "prod_type": "fast_food"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TRN_758756",
+      "prod_name": "Fruit BBB",
+      "tran_date": "Sat 23",
+      "tran_type": "fruit",
+      "tran_qty": 1,
+      "tran_total": 70000
+    },
+    {
+      "id": "TRN_459304",
+      "prod_name": "Fruit AAA",
+      "tran_date": "Sat 23",
+      "tran_type": "fruit",
+      "tran_qty": 1,
+      "tran_total": 150000
+    },
+    {
+      "id": "TRN_909146",
+      "prod_name": "Snack SSS",
+      "tran_date": "Sat 23",
+      "tran_type": "snack",
+      "tran_qty": 1,
+      "tran_total": 50000
+    },
+    {
+      "id": "TRN_279862",
+      "prod_name": "Snack TTT",
+      "tran_date": "Mon 25",
+      "tran_type": "snack",
+      "tran_qty": 1,
+      "tran_total": 35000
+    },
+    {
+      "id": "TRN_404081",
+      "prod_name": "Food YYY",
+      "tran_date": "Mon 25",
+      "tran_type": "fast_food",
+      "tran_qty": 1,
+      "tran_total": 45000
+    },
+    {
+      "id": "TRN_799905",
+      "prod_name": "Fruit CCC",
+      "tran_date": "Sun 24",
+      "tran_type": "fruit",
+      "tran_qty": 4,
+      "tran_total": 380000
+    },
+    {
+      "id": "TRN_562391",
+      "prod_name": "Fruit AAA",
+      "tran_date": "Mon 25",
+      "tran_type": "fruit",
+      "tran_qty": 2,
+      "tran_total": 300000
+    },
+    {
+      "id": "TRN_187407",
+      "prod_name": "Snack TTT",
+      "tran_date": "Sun 24",
+      "tran_type": "snack",
+      "tran_qty": 5,
+      "tran_total": 175000
+    },
+    {
+      "id": "TRN_534070",
+      "prod_name": "Snack UUU",
+      "tran_date": "Mon 25",
+      "tran_type": "snack",
+      "tran_qty": 3,
+      "tran_total": 165000
+    },
+    {
+      "id": "TRN_375467",
+      "prod_name": "Food XXX",
+      "tran_date": "Sat 23",
+      "tran_type": "fast_food",
+      "tran_qty": 3,
+      "tran_total": 234000
+    },
+    {
+      "id": "TRN_725419",
+      "prod_name": "Food YYY",
+      "tran_date": "Sun 24",
+      "tran_type": "fast_food",
+      "tran_qty": 2,
+      "tran_total": 90000
+    }
+  ]
 }
